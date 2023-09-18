@@ -1,0 +1,101 @@
+:root {
+    --color-white: #FAF1E4;
+    --color-light-green: #CEDEBD;
+    --color-brown-alpha: rgba(144, 27,27, 0.9);
+    --color-green: #435334;
+}
+
+html {
+    display: block;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+head {
+    display: none;
+}
+
+body {
+    font-family: 'Comic Sans', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.4;
+    color: var(--color-white);
+    margin: 1;
+    display: block;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    display: block;
+    margin: 10px;
+}
+
+body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    background: var(--color-darkblue);
+    background-image: linear-gradient( 115deg, rgba(100, 27, 27, 0.8), rgba(27, 144, 200, 0.7) ), url(https://dkrn4sk0rn31v.cloudfront.net/uploads/2020/09/dicas-de-como-estudar-programacao.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+div {
+    display: block;
+}
+
+@media (min-width: 768px){
+    .container {
+        max-width: 720px;
+    }
+}
+
+@media (min-width: 576px){
+    .container {
+        max-width: 540px;
+    }
+}
+
+.container {
+    width: 100%;
+    margin: 3.125rem auto 0 auto;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+.header {
+    padding: 0 0.625rem;
+    margin-bottom: 1.875rem;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+header {
+    display: block;
+}
+
+@media (min-width: 480px){
+... (343 linhas)
