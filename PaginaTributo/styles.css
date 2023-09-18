@@ -1,0 +1,87 @@
+body {
+    background-color: #4C3D3D;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+    }
+    
+    
+    #title {
+    color: #C07F00;
+    font-family: 'Lobster', cursive;
+    border: 5px solid #C07F00;
+    font-size: 42px;
+    margin-bottom: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    }
+    
+    
+    font i {
+    color: #C07F00;
+    font-size: 28px;
+    margin-bottom: 20px;
+    text-align: center;
+    }
+    
+    
+    #img-div {
+    margin: 50px auto;
+    text-align: center;
+    }
+    
+    img#image {
+    border-radius: 10%;
+    box-shadow: 5px 5px 15px #C07F00;
+    height: auto;
+    width: 500px;
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    }
+    
+    #img-caption {
+    color: #fff;
+    font-size: 20px;
+    }
+    
+    /* Estilos para a lista */
+    #tribute-info {
+    max-width: 800px;
+    margin: 0 auto;
+    }
+    
+    #tribute-info h2 {
+    color: #C07F00;
+    font-size: 36px;
+    margin-bottom: 20px;
+    text-align: center;
+    }
+    
+    #tribute-info li {
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-align: justify;
+    }
+    
+    
+    a {
+    color: #C07F00;
+    text-decoration: none;
+    }
+    
+    a:hover {
+    text-decoration: underline;
+    }
+     .font {
+      color: #FFFFFF;
+      font-size: 20px;
+      font-weight: bold;
+      letter-spacing: 2px;
+      text-align: center;
+      font-family: Georgia, serif;
+    
+    }
