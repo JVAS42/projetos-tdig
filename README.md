@@ -1,7 +1,7 @@
 <div>
   <h1 align="center"> Projetos TDIG 2023.2 </h1>
   <p align="center">
-    <img loading="lazy" src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge"/>
+    <img loading="lazy" src="http://img.shields.io/static/v1?label=STATUS&message=DESENVOLVIDO&color=GREEN&style=for-the-badge"/>
   </p>
 </div>
 
@@ -11,5 +11,9 @@ Todos os projetos pedidos pelo professor Ramon Bezerra da disciplina Tecs. de De
 
 ### Objetivo
 
-- Aprender as ferramentas de desenvolvimento de interface gráfica
+- Aprender as ferramentas de desenvolvimento de interface gráfica;
 - Axuliar futuros alunos da disciplina em seus projetos;
+
+  ### Projeto Final
+
+ [Woofsgram](https://github.com/rodloiola/Woofstagram)
