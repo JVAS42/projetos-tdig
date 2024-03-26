@@ -2,80 +2,104 @@
 <html lang="pt-br">
   <head>
     <link rel="stylesheet" href="styles.css" />
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   </head>
   <body>
     <div class="container">
       <header class="header">
-        <h1 id="title" class="text-center">Meu Formulário</h1>
+        <h1 id="title" class="text-center">Formulário Sobre Curso de Ciência da Computação na UEPB Campus - Campina Grande</h1>
         <p id="description" class="description text-center">Agradecemos pelas suas respostas</p>
       </header>
       <form id="survey-form">
         <div class="form-group">
-          <label id="name-label" for="name">Nome</label>
+          <label id="name-label" for="name">Nome Completo</label>
           <input type="text" name="name" id="name" class="form-control" placeholder="Digite Seu Nome" required />
         </div>
         <div class="form-group">
-          <label id="email-label" for="email">Email</label>
+          <label id="email-label" for="email">Email Institucional</label>
           <input type="email" name="email" id="email" class="form-control" placeholder="Digite Seu Email" required />
         </div>
         <div class="form-group">
           <label id="number-label" for="number">Idade<span class="clue">(Opcional)</span></label>
-          <input type="number" name="age" id="number" min="10" max="99" class="form-control" placeholder="Idade" />
+          <input type="number" name="age" id="number" min="16" max="99" class="form-control" placeholder="Idade" />
         </div>
         <div class="form-group">
-          <p>Em sua opnião, qual dessas opções descreve melhor sua função?</p>
+          <p></br>Em sua opnião, qual dessas opções descreve melhor sua função?</p>
           <select id="dropdown" name="role" class="form-control" required>
             <option disable selected value>Selecione sua função</option>
             <option value="student">Só Estudante</option>
-            <option value="job">Só Trabalhando</option>
-            <option value="preferno">Prefiro não colocar</option>
+            <option value="job1">Trabalhando e Estudando</option>
+            <option value="job2">Estudando e Trabalhando na Área</option>
+            <option value="project">Estudando e com Projeto na Universidade</option>
             <option value="other">Outro</option>
           </select>
         </div>
         <div class="form-group">
-          <p>Você recomendaria esse formulário para um amigo?</p>
+          <p><br>Você recomendaria esse formulário para um amigo?</p>
+          <div class="row">
+          <div class="col-xs-6">
           <label>
             <input name="user-recommend" value="definitely" type="radio" class="input-radio" checked />Com Certeza
           </label>
+          </div>
+          <div class="col-xs-6">
           <label>
           <input name="user-recommend" value="maybe" type="radio" class="input-radio" />Talvez
           </label>
+          </div>
+          <div class="col-xs-6">
           <label>
             <input name="user-recommend" value="not-sure" type="radio" class="input-radio" />Não Sei
           </label>
+          </div>
+          </div>
         </div>
         <div class="form-group">
-          <p>O que você gostaria de ver nesse formulário no futuro?</p>
+          
+          <p><br>O que você gostaria de ver mais no curso no futuro?</p>
+          <div class="row">
+            <div class="col-xs-4">
           <label>
-            <input name="prefer" value="front-end-projects" type="checkbox" class="input-checkbox">Projetos Front-End</label>
+            <input name="prefer" value="front-end-projects" type="checkbox" class="input-checkbox">Mais Projetos Front-End</label>
+            </div>
+            <div class="col-xs-4">
           <label>
-            <input name="prefer" value="back-end-projects" type="checkbox" class="input-checkbox">Projetos Back-end</label>
+            <input name="prefer" value="back-end-projects" type="checkbox" class="input-checkbox">Mais Projetos Back-end</label>
+            </div>
+            <div class="col-xs-4">
           <label>
-            <input name="prefer" value="data-visualization" type="checkbox" class="input-checkbox">Vizualização de Dados</label>
+            <input name="prefer" value="data-visualization" type="checkbox" class="input-checkbox">Mais Eventos</label>
+            </div>
+            <div class="col-xs-4">
           <label>
-            <input name="prefer" value="challenges" type="checkbox" class="input-checkbox">Desafios</label>
+            <input name="prefer" value="challenges" type="checkbox" class="input-checkbox">Mais Desafios de Programação</label>
+            </div>
+            <div class="col-xs-4">
           <label>
             <input name="prefer" value="open-source-community" type="checkbox" class="input-checkbox">Comunidade Open Source</label>
+            </div>
+          <div class="col-xs-4">
           <label>
-            <input name="prefer" value="gitter-help-rooms" type="checkbox" class="input-checkbox">Tutoriais de Gitter</label>
+            <input name="prefer" value="city-meetups" type="checkbox" class="input-checkbox">Mais Encontros</label>
+            </div>
+          <div class="col-xs-4">
           <label>
-            <input name="prefer" value="videos" type="checkbox" class="input-checkbox">Vídeos</label>
-          <label>
-            <input name="prefer" value="city-meetups" type="checkbox" class="input-checkbox">Encontros</label>
-          <label>
-            <input name="prefer" value="wiki" type="checkbox" class="input-checkbox">Wiki</label>
-          <label>
-            <input name="prefer" value="forum" type="checkbox" class="input-checkbox">Forum</label>
+            <input name="prefer" value="discussions" type="checkbox" class="input-checkbox">Mesas de Discussão</label>
+            </div>
+            <div class="col-xs-4">
           <label>
             <input name="prefer" value="additional-courses" type="checkbox" class="input-checkbox">Cursos Extras</label>
+            </div>
+        </div>
         </div>
         <div class="form-group">
-          <p>Poderia fazer seus cometários e Sugestões?</p>
+          <p><br>Poderia fazer seus cometários e Sugestões?</p>
           <textarea id="comments" class="input-textarea" name="comment" placeholder="Coloque seus comentários aqui..."></textarea>
         </div>
         <div class="form-group">
-          <button type="submit" id="submit" class="submit-button">
-            Enviar
+          <button type="submit" id="submit" class="submit-button btn btn-primary"><i class="fa fa-paper-plane"></i> Enviar
           </button>
         </div>
       </form>
